@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="translator">
+        <form id="translator-form">
+            <label for="code">Code:</label>
+            <input type="text" name="code" id="code" autocomplete="off">
+            <br>
+            <button type="button" id="reverse" aria-pressed="false">Reverse: Off</button>
+            <br>
+            <button type="submit" id="submit">Translate</button>
+            <button type="reset" id="reset">Clear</button>
+            <p id="result" aria-live="polite"></p>
+        </form>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+</html>

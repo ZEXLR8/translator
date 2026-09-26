@@ -1,0 +1,36 @@
+body{
+    background-color: #13214b;
+    overflow: hidden;
+}
+
+html, body{
+    height: 100%
+}
+
+#translator{
+    display: flex;
+    background-color: #465fac;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+input{
+    width: 100%;
+    font-size: 30px;
+}
+
+#submit{
+    width: 25%;
+    position: relative;
+    left: 0%;
+}
+
+#reset{
+    position: relative;
+    left: -1%;
+    width: 25%;
+
+}
